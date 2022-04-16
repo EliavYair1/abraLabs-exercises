@@ -1,0 +1,48 @@
+.logo {
+  width: 242px;
+  object-fit: contain;
+}
+.navbar {
+  padding: 20px 64px 0 64px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links {
+  color: #fff;
+  font-family: Assistant;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.nav-link {
+  position: relative;
+  width: 89px;
+  color: #fff;
+  margin: 16px;
+  text-decoration: none;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  background-color: #fff;
+  z-index: 10;
+  height: 5.5px;
+  width: 0;
+  left: 25%;
+  bottom: -10px;
+  transition: 0.3s;
+}
+.nav-link:hover::after {
+  width: 50%;
+}
+
+@media only screen and (max-width: 595px) {
+  .nav-links {
+    font-size: 15px;
+  }
+  .logo {
+    width: 180px;
+    object-fit: contain;
+  }
+}

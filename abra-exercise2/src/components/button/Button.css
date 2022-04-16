@@ -1,0 +1,30 @@
+.form-btn {
+  width: 426px;
+  height: 60px;
+  margin: 0 248px 8px 0;
+  border-radius: 12px;
+  background: #ff9f00;
+  color: #fff;
+  font-family: Assistant;
+  font-size: 26px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: capitalize;
+  border: none;
+}
+.form-btn:hover {
+  border: 2px solid #ff9000;
+  background-color: #ff9000;
+}
+span {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+span .redirect-link {
+  color: #ff9f00;
+  text-transform: capitalize;
+}

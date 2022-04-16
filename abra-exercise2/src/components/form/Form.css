@@ -1,0 +1,74 @@
+.signIn {
+  width: 426px;
+  margin: 148px auto;
+  font-family: Assistant;
+}
+
+.form-header {
+  width: 340px;
+  margin: 0 auto;
+  font-size: 64px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.56px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.subtext {
+  width: 450px;
+  margin: 17px 0 64px 0;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+input {
+  width: 426px;
+  height: 60px;
+  border-radius: 12px;
+  margin: 6px 0 0;
+}
+
+input::placeholder {
+  padding: 20px 279px 20px 16px;
+  color: #9094ab;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+}
+label {
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  text-transform: capitalize;
+}
+#email {
+  margin-bottom: 24px;
+}
+#password {
+  margin-bottom: 64px;
+}
+@media only screen and (min-width: 1200px) {
+  .signIn {
+    margin: 60px auto;
+  }
+}
+@media only screen and (max-width: 595px) {
+  .signIn {
+    margin: 60px auto;
+  }
+}
