@@ -1,0 +1,42 @@
+.sectionTwo {
+  margin: 0 0 0 64px;
+}
+.thirdHead {
+  width: 263px;
+  height: 28px;
+  font-size: 1.5em;
+  margin: 0 385px 16px 0;
+  font-family: Arial;
+  font-weight: bold;
+}
+.numList {
+  width: 648px;
+  height: 160px;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 1.78;
+  padding: 0 0 0 20px;
+}
+.bulletList {
+  width: 632px;
+  height: 160px;
+  margin: 0px 0 40px 0;
+  line-height: 1.78;
+  font-family: Arial;
+  text-align: left;
+}
+.codeImage-2 {
+  width: 648px;
+  height: 287px;
+  margin: 200px 720px 40px 0px;
+}
+.abraLink {
+  width: 152px;
+  height: 32px;
+  color: #ff7748;
+  line-height: 1.78;
+  font-family: Arial;
+  font-size: 18px;
+  margin: 40px 69px 0 0;
+  text-transform: capitalize;
+}
