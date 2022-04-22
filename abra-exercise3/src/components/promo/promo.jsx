@@ -1,9 +1,11 @@
+import Title from '../title/title';
 import './promo.css';
+
 const Promo = () => {
   return (
     <>
       <section className="promo-container">
-        <h1 className="headline">react</h1>
+        <Title />
         <p className="subtext">
           A javascript library for building user interfaces
         </p>

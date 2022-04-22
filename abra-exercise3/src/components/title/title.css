@@ -1,0 +1,12 @@
+.headline {
+  font-family: Time New Roman;
+  font-size: 72px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 1.44px;
+  text-align: left;
+  color: #0e1649;
+  text-transform: capitalize;
+}
