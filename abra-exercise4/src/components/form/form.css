@@ -48,3 +48,6 @@
   color: #ff5288;
   text-transform: capitalize;
 }
+.sendBtn::after {
+  content: 'send';
+}

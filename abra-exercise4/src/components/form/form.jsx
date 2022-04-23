@@ -11,7 +11,8 @@ const Form = () => {
         <input type="text" className="formInput" placeholder="full name" />
         <input type="text" className="formInput" placeholder="email" />
         <input type="text" className="formInput" placeholder="phone" />
-        <Button />
+
+        <Button className="sendBtn" />
         <a href="#" className="contactUs">
           contact us here!
         </a>

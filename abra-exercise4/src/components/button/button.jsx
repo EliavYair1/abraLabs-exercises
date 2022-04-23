@@ -2,7 +2,7 @@ import './button.css';
 const Button = () => {
   return (
     <>
-      <button className="formBtn">read me</button>
+      <button className="formBtn">send</button>
     </>
   );
 };
