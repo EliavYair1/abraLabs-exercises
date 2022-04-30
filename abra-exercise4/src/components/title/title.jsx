@@ -1,11 +1,11 @@
-import './title.css';
 import ITA from '../imgs/image.jpg';
+import { MainHeader, Collab, ImgStyles } from './title.styles';
 const Title = () => {
   return (
     <>
-      <h1 className="mainHeader">front-end course</h1>
-      <p className="collab">In collaboration with</p>
-      <img src={ITA} alt="" className="iIA" />
+      <MainHeader>front-end course</MainHeader>
+      <Collab className="collab">In collaboration with</Collab>
+      <ImgStyles src={ITA} alt="" />
     </>
   );
 };

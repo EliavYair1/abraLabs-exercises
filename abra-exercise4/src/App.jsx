@@ -1,24 +1,25 @@
-import './App.css';
 import Footer from './components/footer/footer';
 import Form from './components/form/form';
 import Navbar from './components/navbar/navbar';
 import Promo from './components/promo/promo';
 import Title from './components/title/title';
-
+import { GlobalStyles } from './GlobalStyles';
+import { AppContainer, HorizontalRow, MainSection } from './App.styles';
 function App() {
   return (
-    <div className="App">
+    <AppContainer>
+      <GlobalStyles />
       <header>
         <Navbar />
       </header>
-      <main className="main-page">
+      <MainSection>
         <Title />
         <Promo />
-        <hr className="hRow" />
+        <HorizontalRow />
         <Form />
-      </main>
+      </MainSection>
       <Footer />
-    </div>
+    </AppContainer>
   );
 }
 

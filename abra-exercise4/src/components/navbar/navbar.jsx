@@ -1,11 +1,11 @@
-import './navbar.css';
 import logo from '../imgs/logo.png';
+import { NavWrapper, Logo } from './navbar.styles';
 const Navbar = () => {
   return (
     <>
-      <div className="logo">
-        <img src={logo} className="center-element" alt="logo" />
-      </div>
+      <NavWrapper>
+        <Logo src={logo} alt="logo" />
+      </NavWrapper>
     </>
   );
 };

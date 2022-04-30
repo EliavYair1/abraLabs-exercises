@@ -1,22 +1,26 @@
 import Button from '../button/button';
-import './form.css';
+import {
+  FormContainer,
+  FormHeader,
+  SubFormHead,
+  FormInput,
+  ContactUs,
+} from './form.styles';
 const Form = () => {
   return (
     <>
-      <form className="form-container">
-        <h2 className="formHeader">Fill in the details below</h2>
-        <p className="subFormHead">
+      <FormContainer>
+        <FormHeader>Fill in the details below</FormHeader>
+        <SubFormHead>
           Please fill in your details here and we’ll be in touch with you soon.
-        </p>
-        <input type="text" className="formInput" placeholder="full name" />
-        <input type="text" className="formInput" placeholder="email" />
-        <input type="text" className="formInput" placeholder="phone" />
+        </SubFormHead>
+        <FormInput type="text" placeholder="full name" />
+        <FormInput type="Email" placeholder="email" />
+        <FormInput type="Tel" placeholder="phone" />
 
         <Button className="sendBtn" />
-        <a href="#" className="contactUs">
-          contact us here!
-        </a>
-      </form>
+        <ContactUs href="#">contact us here!</ContactUs>
+      </FormContainer>
     </>
   );
 };

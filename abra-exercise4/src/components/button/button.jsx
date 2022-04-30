@@ -1,8 +1,8 @@
-import './button.css';
+import { FormBtn } from './button.styles';
 const Button = () => {
   return (
     <>
-      <button className="formBtn">send</button>
+      <FormBtn>send</FormBtn>
     </>
   );
 };

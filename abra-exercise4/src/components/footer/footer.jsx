@@ -1,9 +1,12 @@
-import './footer.css';
 import footerImg from '../imgs/imageAbra.jpg';
+import { FooterImg, FooterWrapper } from './footer.styles';
+
 const Footer = () => {
   return (
     <>
-      <img src={footerImg} alt="" class="footerBgc" />
+      <FooterWrapper>
+        <FooterImg src={footerImg} alt="footer" />
+      </FooterWrapper>
     </>
   );
 };
