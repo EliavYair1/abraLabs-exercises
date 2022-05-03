@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
+
   /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -35,7 +36,7 @@ body {
 /*
     6. Improve media defaults
   */
-img,
+
 picture,
 video,
 canvas,

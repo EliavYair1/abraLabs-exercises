@@ -1,7 +1,7 @@
 import { GlobalStyles } from './GlobalStyles';
-import { AppContainer } from './App.styles';
+import { AppContainer, MainSection } from './App.styles';
 import NavBar from './components/navbar/navbar';
-
+import ColumnOne from './components/column1/column1';
 function App() {
   return (
     <AppContainer>
@@ -9,7 +9,9 @@ function App() {
       <header>
         <NavBar />
       </header>
-      <main></main>
+      <MainSection>
+        <ColumnOne />
+      </MainSection>
     </AppContainer>
   );
 }
