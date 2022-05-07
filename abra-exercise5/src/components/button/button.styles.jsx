@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 export const ButtonStyles = styled.button`
+  width: 148px;
   flex-grow: 0;
   padding: 16px 32px;
   border-radius: 12px;
@@ -10,6 +11,7 @@ export const ButtonStyles = styled.button`
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 16px;
+  margin-bottom: 80px;
   &:hover {
     background-color: #f08e0e;
     border: none;

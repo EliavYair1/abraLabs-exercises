@@ -9,3 +9,8 @@ export const MainSection = styled.main`
   display: flex;
   font-family: Arial;
 `;
+export const HR = styled.hr`
+  width: 100vw;
+  color: #ffffff;
+  margin-top: 312px;
+`;
